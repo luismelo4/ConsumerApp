@@ -12,7 +12,7 @@ gem 'mongoid', '~> 8.0'
 
 gem 'activerecord-sqlserver-adapter', '~> 7.0'
 
-gem 'sidekiq', '~> 6.0'
+gem 'sidekiq', '~> 7.3'
 
 gem 'redis', '~> 5.0'
 
