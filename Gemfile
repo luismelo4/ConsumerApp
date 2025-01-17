@@ -8,7 +8,7 @@ gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
-gem 'mongoid', '~> 8.0'
+gem 'mongoid', '~> 9.0'
 
 gem 'activerecord-sqlserver-adapter', '~> 7.0'
 
