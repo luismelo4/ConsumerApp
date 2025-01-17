@@ -16,6 +16,12 @@ gem 'sidekiq', '~> 6.0'
 
 gem 'redis', '~> 5.0'
 
+gem 'redis-namespace'
+gem 'pry'
+gem 'pry-rails' # If you're working within a Rails app
+
+gem 'oj', '~> 3.0.0'
+gem 'sys-proctable'
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
@@ -53,6 +59,20 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem 'rspec-rails', '~> 5.0'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'rack-cors'
+  gem 'kaminari'
+  gem 'kaminari-mongoid'
+  gem 'kaminari-actionview'
+  gem 'countries'
 end
+
+group :test do
+  gem 'simplecov', require: false
+end
+
 
 

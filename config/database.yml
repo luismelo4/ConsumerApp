@@ -1,22 +1,24 @@
+# filepath: /home/luismelo4/ConsumerApi/config/database.yml
 default: &default
   adapter: sqlserver
   host: localhost
-  username: consumer
-  password: DecoProteste09!!
-  database: consumer_database
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
+  username: consumer
+  password: DecoProteste09!!
   database: consumer_database
 
 test:
   <<: *default
-  database: consumer_database
+  username: test_consumer
+  password: TestPassword123!
+  database: consumer_database_test
 
 production:
   <<: *default
-  database: consumer_database
   username: <your_production_username>
   password: <your_production_password>
+  database: consumer_database
