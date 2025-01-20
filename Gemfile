@@ -20,7 +20,7 @@ gem 'redis-namespace'
 gem 'pry'
 gem 'pry-rails' # If you're working within a Rails app
 
-gem 'oj', '~> 3.0.0'
+gem 'oj', '~> 3.16.9'
 gem 'sys-proctable'
 
 

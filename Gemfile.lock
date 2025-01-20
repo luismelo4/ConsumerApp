@@ -219,7 +219,9 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.1-x86_64-linux-musl)
       racc (~> 1.4)
-    oj (3.0.11)
+    oj (3.16.9)
+      bigdecimal (>= 3.0)
+      ostruct (>= 0.2)
     ostruct (0.6.1)
     parallel (1.22.1)
     parser (3.3.6.0)
@@ -419,7 +421,7 @@ DEPENDENCIES
   kaminari-actionview
   kaminari-mongoid
   mongoid (~> 8.0)
-  oj (~> 3.0.0)
+  oj (~> 3.16.9)
   pry
   pry-rails
   puma (>= 5.0)
